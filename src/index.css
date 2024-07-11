@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+.item-0 {
+  @apply lg:self-start;
+}
+.item-1 {
+  @apply lg:self-center;
+}
+.item-2 {
+  @apply lg:self-end;
+}
+@tailwind utilities;
