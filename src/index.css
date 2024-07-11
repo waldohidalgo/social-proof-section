@@ -1,4 +1,5 @@
 @tailwind base;
+
 @tailwind components;
 
 .item-0 {
@@ -10,4 +11,17 @@
 .item-2 {
   @apply lg:self-end;
 }
+
+.backgroundLayer {
+  background: url("./assets/bg-pattern-top-mobile.svg") top left/100% auto
+      no-repeat,
+    url("./assets/bg-pattern-bottom-mobile.svg") bottom right/100% 50% no-repeat;
+}
+@screen md {
+  .backgroundLayer {
+    background: url("./assets/bg-pattern-top-desktop.svg") top left no-repeat,
+      url("./assets/bg-pattern-bottom-desktop.svg") bottom right no-repeat;
+  }
+}
+
 @tailwind utilities;
