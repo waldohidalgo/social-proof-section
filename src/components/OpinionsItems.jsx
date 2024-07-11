@@ -42,7 +42,7 @@ export default function OpinionsItems() {
               alt={item.author + " icon"}
             />{" "}
             <div>
-              <p className="text-white text-[18px]">{item.author}</p>
+              <p className="text-white text-[18px] font-bold">{item.author}</p>
               <p className="text-softPink text-[17px] mt-[-4px]">
                 {item.status}
               </p>
